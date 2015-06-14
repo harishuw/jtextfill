@@ -1,6 +1,5 @@
 # jTextFill
 Search and Fill the text box from list of json
-
 ##Usage
 include js and css files
 <pre><code>
@@ -13,9 +12,13 @@ var options={
 $(input).jTextFill(options)
 </code></pre>
 ###List types
-####Normal list<pre><code>options.list=["example","second","third"]</code></pre>
-#### html list<pre><code>options.list=[{html:<img src="image.jpg">,value:"example"},{html:<img src="image2.jpg">,value:"other"},{html:"<img src="image3.jpg">",value:"another"}]
+####Normal list
+<pre><code>options.list=["example","second","third"]</code></pre>
+#### html list
+<pre><code>options.list=[{html:"< img src=image.jpg>",value:"example"},{html:< img src="image2.jpg">,value:"other"},{html:"< img src="image3.jpg">",value:"another"}]</code>
 here html is list items
-on selecting html value will be filled inside textbox</code></pre>
-####Ajax<pre><code>option.list="http://example.com/data.json"
+on selecting html value will be filled inside textbox
+</pre>
+####Ajax
+<pre><code>option.list="http://example.com/data.json"
 here this url should output any of above list formats</code></pre>
