@@ -12,6 +12,8 @@ var options={
 $(input).jTextFill(options)
 </code></pre>
 
+
+
 ###List types
 ####Normal list
 <pre><code>options.list=["example","second","third"]</code></pre>
