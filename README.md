@@ -13,11 +13,6 @@ $(input).jTextFill(options)
 </code></pre>
 
 
-
-####Ajax
-<pre><code>option.list="http://example.com/data.json"
-here this url should output any of above list formats</code></pre>
-
 ###List types
 
 ####Normal list
@@ -29,4 +24,9 @@ here this url should output any of above list formats</code></pre>
 <pre><code>options.list=[{html:"< img src=image.jpg>",value:"example"},{html:< img src="image2.jpg">,value:"other"},{html:"< img src="image3.jpg">",value:"another"}]</code>
 here html is list items
 on selecting html value will be filled inside textbox
-</pre>
+</code></pre>
+
+####Ajax
+<pre><code>option.list="http://example.com/data.json"
+here this url should output any of above list formats</code></pre>
+
