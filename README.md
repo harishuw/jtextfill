@@ -1,7 +1,7 @@
 # jTextFill
 Search and Fill the text box from list of json
 ##Usage
-include js and css files
+include jquery, js and css files
 <pre><code>
 var options={
   list:,/*list of items */
