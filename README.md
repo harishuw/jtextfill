@@ -1,4 +1,4 @@
-# jTextFill
+# jQuery jTextFill
 Search and Fill the text box from list of json
 ##Usage
 include jquery, js and css files
