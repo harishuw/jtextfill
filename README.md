@@ -7,7 +7,8 @@ var options={
   list:,/*list of items */
   minlength:1,/*minimum key press required to start listing*/
   limit:10,/*Limit of items in list*/
-  done:function(list_item){ /* function called when list is filled in text field with selected list as argument*/}
+  filled:function(list_item){ /* function called when list item is filled in text field with selected list as argument*/}
+  clicked:function(list_item){/* function called when a list item is clicked with selected list as argument*/}
 }
 $(input).jTextFill(options)
 </code></pre>
